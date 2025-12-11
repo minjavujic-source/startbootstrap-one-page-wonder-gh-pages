@@ -14,33 +14,44 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
         <style>
             html { scroll-behavior: smooth; }
         </style>
     </head>
     <body id="page-top">
-        <!-- Navigation-->
+
+        <!-- Navigation (hamburger + sve stavke) -->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
+
                 <a class="navbar-brand" href="#page-top">O meni</a>
+
+                <!-- Hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Meni koji se otvara -->
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Prazno -->
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item"><a class="nav-link" href="#rodjenje">Rođenje</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#obitelj">Obitelj</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hobi">Hobi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#struka">Struka</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skola">Srednja</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#osnovna">Osnovna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#psi">Ljubimci</a></li>
                     </ul>
                 </div>
+
+            
+
             </div>
         </nav>
 
-        <!-- Gornji izbornik iznad naslova -->
-        <div style="background:#ffffffd0; padding:10px 0; text-align:center; margin-top:70px;">
-            <a class="btn btn-primary mx-2" href="#rodjenje">Rođenje</a>
-            <a class="btn btn-primary mx-2" href="#obitelj">Obitelj</a>
-            <a class="btn btn-primary mx-2" href="#hobi">Hobi</a>
-            <a class="btn btn-primary mx-2" href="#struka">Struka</a>
-            <a class="btn btn-primary mx-2" href="#skola">Škola</a>
-            <a class="btn btn-primary mx-2" href="#osnovna">Osnovna</a>
-            <a class="btn btn-primary mx-2" href="#psi">Psi</a>
-        </div>
 
         <!-- Header-->
         <header class="masthead text-center text-white">
@@ -48,8 +59,27 @@
                 <div class="container px-5">
                     <h1 class="masthead-heading mb-0">Minja Vujić</h1>
                     <h2 class="masthead-subheading mb-0">Moja biografija</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll"></a>
+                   
                 </div>
+                 
+                    <!-- Gumbi za društvene mreže -->
+<div class="text-center mt-4 mb-5">
+    <h3>Moje društvene mreže</h3>
+
+    <a href="https://www.instagram.com/minja.vujic/?igsh=MWt6MjNqYmc1d3p4eA%3D%3D&utm_source=qr#" class="btn btn-danger m-2" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+
+    <a href="https://www.facebook.com/minja.vujic.1/" class="btn btn-primary m-2" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+    </a>
+
+    <a href="https://www.snapchat.com/@vujicminja?invite_id=MiAfX7Ta&locale=en_HR&share_id=1Vk10v8zQVGmjYEctqoxpg&sid=4332e44085a84d419e8e13dfa663860b" class="btn btn-warning m-2" target="_blank">
+        <i class="fab fa-snapchat"></i> Snapchat
+    </a>
+</div>
+
+                
             </div>
             <div class="bg-circle-1 bg-circle"></div>
             <div class="bg-circle-2 bg-circle"></div>
@@ -68,8 +98,9 @@
                         <div class="p-5">
                             <h2 class="display-4">Moj datum rođenja</h2>
                             <p>
-                                <br>Rođena sam 1.6.2010</br>
-                                <br>Mjesto: Bolnica Pakrac</br>
+                                Rođena sam 1. lipnja 2010. godine u bolnici u Pakracu. <br>
+                                Taj dan mi je poseban, jer označava početak mog puta. <br>
+                                
                             </p>
                         </div>
                     </div>
@@ -88,9 +119,10 @@
                         <div class="p-5">
                             <h2 class="display-4">Obitelj</h2>
                             <p>
-                                <br>Imam dvije setre.</br>
-                                <br>Zovu se Mia i Mila.</br>
-                                <br>Mia ima 18 godina, a Mila 12 godina</br>
+                               Dolazim iz obitelji u kojoj imam dvije sestre, Miu i Milu. <br>
+                               Jako ih volim i puno mi znače, jer su one osobe na koje se uvijek mogu osloniti.  <br>
+                               Bez obzira na sve razlike među nama, uvijek smo tu jedna za drugu. <br>
+                               Zauvijek ću im biti podrška, baš kao što su i one meni. <br>
                             </p>
                         </div>
                     </div>
@@ -109,8 +141,9 @@
                         <div class="p-5">
                             <h2 class="display-4">Hobi</h2>
                             <p>
-                                <br>U slobodno vrijeme volim otići u prirodu voziti quad.</br>
-                                <br>Također volim igrati igrice na računalu,kao i nogomet.</br>
+                                U slobodno vrijeme najviše volim boraviti u prirodi i voziti quad, <br>
+                                što me opušta i puni energijom. <br>
+                                Također uživam u igranju računalnih igrica te u nogometu, koji me veseli i pokreće. <br>
                             </p>
                         </div>
                     </div>
@@ -129,8 +162,9 @@
                         <div class="p-5">
                             <h2 class="display-4">Moja struka</h2>
                             <p>
-                                <br>Prvi sam razred Ekonomske i turistiičke škole Daruvar</br>
-                                <br>Smjer: Referent za poslovnu ekonomiju</br>
+                               Pohađam prvi razred Ekonomske i turističke škole Daruvar, smjer referent za poslovnu ekonomiju. <br>
+                               Ovo zanimanje privuklo me jer volim raditi s ljudima, organizirati i planirati, <br>
+                               a smjer mi pruža znanja koja će mi jednog dana koristiti u poslovnom svijetu. <br>
                                 <a href="https://www.adorio.hr/zanimanje/ekonomist">Nešto o struci</a>
                             </p>
                         </div>
@@ -150,8 +184,9 @@
                         <div class="p-5">
                             <h2 class="display-4">Ekonomska i turistička škola Daruvar</h2>
                             <p>
-                                Ova škola mi je jako zanimljiva.<br>
-                                Pronašla sam nove prijatelje.<br>
+                               Moja škola mi se jako sviđa jer nudi ugodnu atmosferu, <br>
+                               zanimljive predmete i dobro društvo. Brzo sam pronašla nove prijatelje,<br>
+                                s kojima mi je škola puno ljepša i zabavnija. <br>
                                 <a href="https://ss-ekonomskaituristicka-da.skole.hr/">Ekonomska i turistička škola Daruvar</a>
                             </p>
                         </div>
@@ -171,9 +206,8 @@
                         <div class="p-5">
                             <h2 class="display-4">Moja osnovna škola</h2>
                             <p>
-                                Bilo mi je lijepo.<br>
-                                Najviše sam voljela informatiku i tjelesni.<br>
-                                <a href="https://os-sirac.skole.hr/">Osnovna škola Sirač</a>
+                               Osnovna škola Sirač ostala mi je u jako lijepom sjećanju. Najviše sam voljela informatiku i tjelesni odgoj. <br>
+                               Kroz njih sam mogla učiti praktične stvari i biti <br>
                             </p>
                         </div>
                     </div>
@@ -192,9 +226,9 @@
                         <div class="p-5">
                             <h2 class="display-4">Ljubimci</h2>
                             <p>
-                                Imam dva psa.<br>
-                                Zovu se Roki i Bobi.<br>
-                                Volim provoditi vrijeme s njima.<br>
+                             Imam dva psa, Rokija i Bobija, koji su mi jako dragi i važni. <br>
+                             Volim provoditi vrijeme s njima, igrati se i šetati. <br>
+                             Uvijek mi poprave raspoloženje i unesu veselju.<br>
                             </p>
                         </div>
                     </div>
@@ -212,4 +246,5 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
 
